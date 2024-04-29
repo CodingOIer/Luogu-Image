@@ -1,2 +1,5 @@
 .vscode
 setting.json
+build
+dist
+main.spec
