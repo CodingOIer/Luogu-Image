@@ -29,3 +29,12 @@
 > [!WARNING]
 >
 > 由于洛谷的限制，每日最多可上传 50 张图片，同时请注意高级空间的消耗。
+
+## 自行构建
+
+```shel
+git clone https://github.com/CodingOIer/Luogu-Image
+cd ./Luogu-Image
+pip install ./requirements.txt
+pyinstaller -icon logo.ico -F ./main.py
+```
