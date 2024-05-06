@@ -1,12 +1,14 @@
 import requests
 import pyperclip
 import json
+import ddddocr
 
 mode = 1
 _uid = 0
 __client_id = ''
 cookie = ''
 
+dcr = ddddocr.DdddOcr(beta=True)
 
 def init():
     global _uid, __client_id, cookie, mode
@@ -58,9 +60,7 @@ def getHeadersGet(url='https://www.luogu.com.cn'):
 
 
 def ocr(img: list):
-    return requests.post(
-        "https://captcha.codingoier.work/ocr/file", files={'image': img}
-    ).text
+    return dcr.classification(img)
 
 
 def getCaptcha():
