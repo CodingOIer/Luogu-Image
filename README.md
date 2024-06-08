@@ -13,11 +13,11 @@
 ```json
 {
     "mode": 1,
-    "//": "洛谷图床的储存模式，0 为无水印，1 为 Logo，2 为 Logo@Username"
+    "//": "洛谷图床的储存模式，0 为无水印，1 为 Logo，2 为 Logo@Username",
     "_uid": 123456,
-    "//": "你的 uid (_uid)"
-    "__client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    "//": "你的 cookie (__client_id)"
+    "//": "你的 uid (_uid)",
+    "__client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "//": "你的 cookie (__client_id)",
 }
 ```
 
